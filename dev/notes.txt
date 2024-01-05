@@ -1,0 +1,24 @@
+DOM Manipulation
+DOM = Document Object Model
+	- collection of elements
+	 	- <p class="message"></p>
+		- <button class="btnChangeMessage">Change</button>
+
+document.querySelector(<css>) - select elements
+
+---
+const messageElem = document.querySelector(".message");
+const btnChangeMessageElem = document.querySelector(".btnChangeMessage");
+
+messageElem.style.color = "red";
+messageElem.style.backgroundColor = "yellow";
+
+events: "click", "mouseover", "mouseenter", "mouseover"
+
+btnChangeMessageElem.addEventListener("click", ()=> {
+	// turn message into blue text
+	messageElem.style.color = "blue";
+	
+	// make width = 400px
+	messageElem.style.width = "400px"; // test to see if this is correct
+});
