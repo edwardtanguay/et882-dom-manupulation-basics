@@ -28,3 +28,5 @@ btnChangeMessageElem.addEventListener("click", ()=> {
 	// make width = 400px
 	messageElem.style.width = "400px"; // test to see if this is correct
 });
+
+innerText
