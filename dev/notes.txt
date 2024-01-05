@@ -1,3 +1,9 @@
+- .. make a button click to change color of text
+
+- try out: defer
+- try out: document.addEventListener("DOMContentLoaded", ...)
+
+=========================
 DOM Manipulation
 DOM = Document Object Model
 	- collection of elements
